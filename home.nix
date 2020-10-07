@@ -4,7 +4,9 @@ let
 in
 {
   imports = [
+    ./programs/git
     ./programs/nvim
+    ./programs/terminal
   ];
 
   nixpkgs.config.allowUnfree = true;
@@ -14,15 +16,4 @@ in
   # TODO
   # xsession.enable = true;
   # xsession.windowManager.command = "TODO";
-
-  programs.git = {
-    enable = true;
-    userName = "loooph";
-    userEmail = "loooph@gmx.de";
-  };
-
-  programs.kitty = {
-    enable = true;
-  };
-
 }
