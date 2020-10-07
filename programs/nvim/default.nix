@@ -18,6 +18,7 @@
       vim-better-whitespace
       vim-fugitive
       vim-gitgutter
+      vim-nix
     ];
     extraConfig = ''
       syntax enable
