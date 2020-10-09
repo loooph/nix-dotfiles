@@ -7,6 +7,7 @@ in
     ./programs/git
     ./programs/nvim
     ./programs/terminal
+    ./pkgs.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
