@@ -7,6 +7,8 @@ in
     ./programs/git
     ./programs/nvim
     ./programs/terminal
+    ./programs/dwm
+    ./programs/zsh
     ./pkgs.nix
   ];
 

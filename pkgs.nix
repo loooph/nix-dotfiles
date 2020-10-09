@@ -2,13 +2,6 @@
 {
   nixpkgs.config.allowUnfree = true;
 
-  nixpkgs.config.packageOverrides = pkgs: { dwm = pkgs.dwm.override {
-			conf = ./dwm/config.h;
-			patches =	[
-			];
-		};
-	};
-
 #	fonts.fonts = with pkgs; [
 #		(nerdfonts.override {
 #			fonts = [ "FiraCode" "JetBrainsMono" ];
@@ -85,22 +78,6 @@
     dia
 
   ];
-
-	programs.zsh = {
-		enable = true;
-    #autosuggestions.enable = true;
-		#syntaxHighlighting.enable = true;
-  #  promptInit = ''
-	#		eval "$(starship init zsh)"
-	#	'';
-    #aliases = {
-    #  "cat" = "bat";
-    #  "grep" = "rg";
-    #  "ls" = "lsd";
-    #  "du" = "dust";
-    #  "tree" = "lsd --tree";
-    #};
-	};
 
   #fonts.fontconfig.defaultFonts.monospace = [ "JetBrains Mono Nerd Font" "FiraCode Nerd Font" ];
 
