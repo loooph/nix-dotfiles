@@ -14,6 +14,7 @@ in
     ./programs/dwm-status
     ./programs/dunst
     ./programs/redshift
+    ./programs/starship
   ];
 
   nixpkgs.config.allowUnfree = true;
