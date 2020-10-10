@@ -11,6 +11,8 @@ in
   xsession = {
     enable = true;
     windowManager.command = "${dwm}/bin/dwm";
-    #windowManager.i3.enable = true;
+    initExtra = ''
+      setxkbmap de
+    '';
   };
 }
