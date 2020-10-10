@@ -7,8 +7,9 @@ in
     ./programs/git
     ./programs/nvim
     ./programs/terminal
-    ./programs/dwm
+#    ./programs/dwm
     ./programs/zsh
+    ./programs/x
     ./pkgs.nix
   ];
 
@@ -16,7 +17,4 @@ in
 
   programs.home-manager.enable = true;
 
-  # TODO
-  # xsession.enable = true;
-  # xsession.windowManager.command = "TODO";
 }

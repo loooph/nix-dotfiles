@@ -1,8 +1,8 @@
+{ pkgs, ... }:
 {
-  nixpkgs.config.packageoverrides = pkgs: { dwm = pkgs.dwm.override {
-			conf = ./config.h;
-			patches =	[
-			];
-		};
-	};
+  dwm = pkgs.dwm.override {
+    conf = ./config.h;
+    patches =	[
+    ];
+  };
 }

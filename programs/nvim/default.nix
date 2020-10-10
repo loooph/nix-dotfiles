@@ -23,7 +23,7 @@
     extraConfig = ''
       syntax enable
       filetype plugin indent on
-      "set termguicolors
+      set termguicolors
       set autoindent
       set smartindent
       set laststatus=2
