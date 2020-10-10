@@ -11,6 +11,9 @@ in
     ./programs/zsh
     ./programs/x
     ./pkgs.nix
+    ./programs/dwm-status
+    ./programs/dunst
+    ./programs/redshift
   ];
 
   nixpkgs.config.allowUnfree = true;
