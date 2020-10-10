@@ -1,5 +1,4 @@
 {
-  environment.pathsToLink = [ "/share/zsh" ];
 	programs.zsh = {
 		enable = true;
     enableAutosuggestions = true;
@@ -8,11 +7,8 @@
       expireDuplicatesFirst = true;
       ignoreDups = true;
       save = 2000000;
-      size = save;
+      size = 2000000;
     };
-    loginExtra = ''
-			eval "$(starship init zsh)"
-		'';
     shellAliases = {
       "cat" = "bat";
       "grep" = "rg";
