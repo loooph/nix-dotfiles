@@ -6,6 +6,7 @@ in
   imports = [
     ./pkgs.nix
     ./programs/autorandr
+    ./programs/firefox
     ./programs/git
     ./programs/nvim
     ./programs/starship
