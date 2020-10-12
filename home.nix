@@ -5,17 +5,17 @@ in
 {
   imports = [
     ./pkgs.nix
-    ./programs/dunst
-    ./programs/dwm-status
     ./programs/git
     ./programs/nvim
-    ./programs/redshift
     ./programs/starship
     ./programs/terminal
-    ./programs/x
     ./programs/zoxide
     ./programs/zsh
+    ./services/dunst
+    ./services/dwm-status
     ./services/picom
+    ./services/redshift
+    ./services/x
 #    ./programs/dwm
   ];
 
