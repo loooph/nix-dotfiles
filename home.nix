@@ -9,6 +9,7 @@ in
 #    ./programs/firefox
     ./programs/git
     ./programs/htop
+    ./programs/lesspipe
     ./programs/nvim
     ./programs/starship
     ./programs/terminal
