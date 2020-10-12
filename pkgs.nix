@@ -52,6 +52,7 @@
     imagemagick
     lynx
     torsocks
+    appimage-run
 
     # basic desktop environment
     maim
