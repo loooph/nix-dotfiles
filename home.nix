@@ -14,6 +14,7 @@ in
     ./services/dunst
     ./services/dwm-status
     ./services/picom
+    ./services/pscircle
     ./services/redshift
     ./services/x
 #    ./programs/dwm
