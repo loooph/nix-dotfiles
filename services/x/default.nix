@@ -1,8 +1,8 @@
 {pkgs, ...}:
 let
-  # TODO somehow import from programs/dwm
+  # TODO somehow import from programs/dwm, maybe use the window manager as an argument
   dwm = pkgs.dwm.override {
-    conf = ../dwm/config.h;
+    conf = ../../programs/dwm/config.h;
     patches =	[
     ];
   };
