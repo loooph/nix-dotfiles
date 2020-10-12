@@ -5,6 +5,7 @@ in
 {
   imports = [
     ./pkgs.nix
+    ./programs/autorandr
     ./programs/git
     ./programs/nvim
     ./programs/starship
