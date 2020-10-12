@@ -8,6 +8,7 @@ in
     ./programs/autorandr
 #    ./programs/firefox
     ./programs/git
+    ./programs/htop
     ./programs/nvim
     ./programs/starship
     ./programs/terminal
