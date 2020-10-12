@@ -15,6 +15,7 @@ in
     ./programs/x
     ./programs/zoxide
     ./programs/zsh
+    ./services/picom
 #    ./programs/dwm
   ];
 
