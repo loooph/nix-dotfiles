@@ -4,18 +4,18 @@ let
 in
 {
   imports = [
+    ./pkgs.nix
+    ./programs/dunst
+    ./programs/dwm-status
     ./programs/git
     ./programs/nvim
-    ./programs/terminal
-#    ./programs/dwm
-    ./programs/zsh
-    ./programs/x
-    ./pkgs.nix
-    ./programs/dwm-status
-    ./programs/dunst
     ./programs/redshift
     ./programs/starship
+    ./programs/terminal
+    ./programs/x
     ./programs/zoxide
+    ./programs/zsh
+#    ./programs/dwm
   ];
 
   programs.home-manager.enable = true;
