@@ -15,6 +15,7 @@ in
     ./programs/dunst
     ./programs/redshift
     ./programs/starship
+    ./programs/zoxide
   ];
 
   programs.home-manager.enable = true;
