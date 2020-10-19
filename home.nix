@@ -6,7 +6,6 @@ in
   imports = [
     ./pkgs.nix
     ./programs/autorandr
-#    ./programs/firefox
     ./programs/git
     ./programs/htop
     ./programs/lesspipe
@@ -20,7 +19,9 @@ in
     ./services/picom
     ./services/pscircle
     ./services/redshift
+    ./services/udiskie
     ./services/x
+#    ./programs/firefox
 #    ./programs/dwm
   ];
 
