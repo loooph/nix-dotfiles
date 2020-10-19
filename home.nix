@@ -20,6 +20,7 @@ in
     ./services/pscircle
     ./services/redshift
     ./services/udiskie
+    ./services/unclutter
     ./services/x
 #    ./programs/firefox
 #    ./programs/dwm
