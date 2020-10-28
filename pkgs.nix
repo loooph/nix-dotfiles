@@ -15,7 +15,7 @@
 		bat
 		dust
 		hyperfine
-    #lsd
+    lsd
 		procs
 		ripgrep
 		sd
@@ -53,6 +53,7 @@
     lynx
     torsocks
     appimage-run
+    glances
 
     # basic desktop environment
     maim
@@ -69,6 +70,7 @@
     gimp
     discord
     dwm
+    pavucontrol
 
     # aditional X programs
     wireshark
