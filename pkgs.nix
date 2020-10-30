@@ -15,90 +15,71 @@
 		bat
 		dust
 		hyperfine
-    lsd
 		procs
 		ripgrep
 		sd
 		tokei
     fd
+    lsd
     tealdeer
 
     # CLI environment
     # zsh should go to programs probably
-		zsh-completions
-		zsh-autosuggestions
-		zsh-fast-syntax-highlighting
-		nix-zsh-completions
-    tmux
-		starship
 		jetbrains-mono
-    pandoc
-    neofetch
-    nmap
-    ffmpeg
-    texlive.combined.scheme-full
-    docker
-    git
-#    neovim
-    htop
-    cmatrix
-    neomutt
-    youtube-dl
-    mpv
-    zig
-    gcc
+		nix-zsh-completions
+		starship
 		zoxide
-    wget
+		zsh-autosuggestions
+		zsh-completions
+		zsh-fast-syntax-highlighting
+    appimage-run
+    cmatrix
+    docker
+    ffmpeg
+    gcc
+    git
+    glances
+    htop
     imagemagick
     lynx
-    torsocks
+    mpv
+    neofetch
+    neomutt
+    nmap
+    pandoc
+    texlive.combined.scheme-full
+    tmux
     tor
-    appimage-run
-    glances
+    torsocks
+    wget
+    youtube-dl
+    zig
+#    neovim
 
     # basic desktop environment
-    maim
-    slock
-    pscircle
-    tdesktop
+    discord
     dmenu
-    slstatus
+    dwm
     feh
     firefox
-    zathura
-    speedcrunch
-    xclip
     gimp
-    discord
-    dwm
+    maim
     pavucontrol
+    pscircle
+    slock
+    slstatus
+    speedcrunch
+    tdesktop
+    xclip
+    zathura
 
     # aditional X programs
-    wireshark
+    (steam.override { extraPkgs = pkgs: [glxinfo];})
+    chromium
+    dia
     ktouch
     lingot
-    chromium
-    (steam.override { extraPkgs = pkgs: [glxinfo];})
-    dia
+    wireshark
 
   ];
-
-  #fonts.fontconfig.defaultFonts.monospace = [ "JetBrains Mono Nerd Font" "FiraCode Nerd Font" ];
-
-  #services.xserver = {
-  #  enable = true;
-  #  layout = "de";
-  #  windowManager.dwm.enable = true;
-  #  videoDrivers = [ "nvidia" ];
-  #  libinput.enable = true;
-  #  config = ''
-  #    Section "InputClass"
-  #      Identifier "mouse accel"
-  #      Driver "libinput"
-  #      MatchIsPointer "on"
-  #      Option "AccelProfile" "flat"
-  #      Option "AccelSpeed" "0"
-  #    EndSection
-  #  '';
-  #};
 }
