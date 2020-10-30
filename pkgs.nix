@@ -52,6 +52,7 @@
     imagemagick
     lynx
     torsocks
+    tor
     appimage-run
     glances
 
