@@ -46,6 +46,7 @@
     neofetch
     neomutt
     nmap
+    p7zip
     pandoc
     texlive.combined.scheme-full
     tmux
@@ -79,6 +80,7 @@
     dia
     ktouch
     lingot
+    torbrowser
     wireshark
 
   ];
