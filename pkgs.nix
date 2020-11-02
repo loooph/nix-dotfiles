@@ -80,6 +80,7 @@
     dia
     ktouch
     lingot
+    openconnect
     torbrowser
     wireshark
 
