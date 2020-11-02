@@ -19,6 +19,7 @@ in
     ./services/picom
     ./services/pscircle
     ./services/redshift
+    ./services/rsibreak
     ./services/udiskie
     ./services/unclutter
     ./services/x

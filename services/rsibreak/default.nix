@@ -1,0 +1,3 @@
+{
+  services.rsibreak.enable = true;
+}
