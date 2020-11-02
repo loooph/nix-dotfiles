@@ -4,6 +4,7 @@ let
 in
 {
   imports = [
+    ./accounts/email
     ./pkgs.nix
     ./programs/autorandr
     ./programs/git

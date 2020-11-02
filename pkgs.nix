@@ -44,7 +44,6 @@
     lynx
     mpv
     neofetch
-    neomutt
     nmap
     p7zip
     pandoc
