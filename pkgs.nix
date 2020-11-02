@@ -64,6 +64,7 @@
     feh
     firefox
     gimp
+    libreoffice
     maim
     pavucontrol
     pscircle
