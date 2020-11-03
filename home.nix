@@ -11,6 +11,7 @@ in
     ./programs/htop
     ./programs/lesspipe
     ./programs/nvim
+    ./programs/password-store
     ./programs/starship
     ./programs/terminal
     ./programs/zoxide
