@@ -34,7 +34,6 @@
     glances
     htop
     imagemagick
-    jetbrains-mono
     lynx
     mpv
     neofetch
@@ -63,6 +62,7 @@
     feh
     firefox
     gimp
+    jetbrains-mono
     libreoffice
     maim
     pavucontrol
