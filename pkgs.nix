@@ -12,26 +12,26 @@
 
  home.packages = with pkgs; [
     # more modern cli tools
-		bat
-		dust
-		hyperfine
-		procs
-		ripgrep
-		sd
-		tokei
+    bat
+    dust
+    hyperfine
+    procs
+    ripgrep
+    sd
+    tokei
     fd
     lsd
     tealdeer
 
     # CLI environment
     # zsh should go to programs probably
-		jetbrains-mono
-		nix-zsh-completions
-		starship
-		zoxide
-		zsh-autosuggestions
-		zsh-completions
-		zsh-fast-syntax-highlighting
+    jetbrains-mono
+    nix-zsh-completions
+    starship
+    zoxide
+    zsh-autosuggestions
+    zsh-completions
+    zsh-fast-syntax-highlighting
     appimage-run
     cmatrix
     docker
