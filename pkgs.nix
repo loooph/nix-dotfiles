@@ -14,24 +14,17 @@
     # more modern cli tools
     bat
     dust
+    fd
     hyperfine
+    lsd
     procs
     ripgrep
     sd
-    tokei
-    fd
-    lsd
     tealdeer
+    tokei
 
     # CLI environment
     # zsh should go to programs probably
-    jetbrains-mono
-    nix-zsh-completions
-    starship
-    zoxide
-    zsh-autosuggestions
-    zsh-completions
-    zsh-fast-syntax-highlighting
     appimage-run
     cmatrix
     docker
@@ -41,12 +34,15 @@
     glances
     htop
     imagemagick
+    jetbrains-mono
     lynx
     mpv
     neofetch
+    nix-zsh-completions
     nmap
     p7zip
     pandoc
+    starship
     texlive.combined.scheme-full
     tmux
     tor
@@ -54,6 +50,10 @@
     wget
     youtube-dl
     zig
+    zoxide
+    zsh-autosuggestions
+    zsh-completions
+    zsh-fast-syntax-highlighting
 #    neovim
 
     # basic desktop environment
