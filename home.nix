@@ -18,7 +18,7 @@ in
     ./programs/zoxide
     ./programs/zsh
     ./services/dunst
-    ./services/dwm-status
+#    ./services/dwm-status
     ./services/gpg-agent
     ./services/picom
     ./services/pscircle
