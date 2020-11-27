@@ -10,7 +10,7 @@
 #    jetbrains-mono
 #	];
 
- home.packages = with pkgs; [
+  home.packages = with pkgs; [
     # more modern cli tools
     bat
     dust
@@ -28,7 +28,7 @@
     appimage-run
     cmatrix
     docker
-    ffmpeg
+    ffmpeg-full
     gcc
     git
     glances
