@@ -29,6 +29,7 @@
     cmatrix
     docker
     ffmpeg-full
+    gdb
     gcc
     git
     glances
