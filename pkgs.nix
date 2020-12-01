@@ -32,6 +32,7 @@
     gcc
     git
     glances
+    gnumake
     htop
     imagemagick
     lynx
@@ -46,6 +47,7 @@
     tmux
     tor
     torsocks
+    rubber
     wget
     youtube-dl
     zig
@@ -53,7 +55,6 @@
     zsh-autosuggestions
     zsh-completions
     zsh-fast-syntax-highlighting
-#    neovim
 
     # basic desktop environment
     discord
