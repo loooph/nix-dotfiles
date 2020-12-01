@@ -19,7 +19,7 @@ in
     ./services/dunst
 #    ./services/dwm-status
     ./services/gpg-agent
-    ./services/picom
+#    ./services/picom
     ./services/pscircle
     ./services/redshift
     ./services/udiskie
