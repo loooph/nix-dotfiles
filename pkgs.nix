@@ -31,6 +31,7 @@
     ffmpeg-full
     gdb
     gcc
+    ghc
     git
     glances
     gnumake
