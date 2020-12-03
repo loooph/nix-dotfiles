@@ -37,6 +37,7 @@
     gnumake
     htop
     imagemagick
+    lm_sensors
     lynx
     mpv
     neofetch
