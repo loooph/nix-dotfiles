@@ -67,7 +67,7 @@ static const struct arg args[] = {
 	{ ram_used, " RAM: %s",		NULL},
 	{ ram_total, "/%s",		NULL},
 	{ load_avg, " Loadavg: %s",		NULL },
-	{ temp, " Temp: %2s°C",		"/sys/class/thermal/thermal_zone0/temp" },
+	{ temp, " Temp: %2s°C",		"/sys/class/hwmon/hwmon2/temp1_input" },
 	{ datetime, " %s",           "%F %T" },
 };
 
