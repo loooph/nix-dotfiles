@@ -17,16 +17,17 @@ in
     ./programs/zoxide
     ./programs/zsh
     ./services/dunst
-#    ./services/dwm-status
     ./services/gpg-agent
-#    ./services/picom
     ./services/pscircle
     ./services/redshift
+    ./services/slstatus
     ./services/udiskie
     ./services/unclutter
     ./services/x
-#    ./programs/firefox
 #    ./programs/dwm
+#    ./programs/firefox
+#    ./services/dwm-status
+#    ./services/picom
   ];
 
   programs.home-manager.enable = true;
