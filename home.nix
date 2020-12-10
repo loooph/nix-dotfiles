@@ -5,7 +5,7 @@ in
 {
   imports = [
     ./pkgs.nix
-    ./programs/autorandr
+#    ./programs/autorandr
     ./programs/git
     ./programs/gpg
     ./programs/htop

@@ -25,7 +25,7 @@
 
     # CLI environment
     # zsh should go to programs probably
-    appimage-run
+    #appimage-run
     cmatrix
     docker
     ffmpeg-full
@@ -48,7 +48,7 @@
     starship
     texlive.combined.scheme-full
     tmux
-    tor
+    #tor
     torsocks
     rubber
     wget
@@ -65,7 +65,7 @@
     dwm
     feh
     firefox
-    gimp
+    #gimp
     jetbrains-mono
     libreoffice
     maim
@@ -74,18 +74,18 @@
     slock
     slstatus
     speedcrunch
-    tdesktop
+    #tdesktop
     xclip
     zathura
 
     # aditional X programs
-    (steam.override { extraPkgs = pkgs: [glxinfo];})
-    chromium
-    dia
-    ktouch
+    #(steam.override { extraPkgs = pkgs: [glxinfo];})
+    #chromium
+    #dia
+    #ktouch
     lingot
     openconnect
-    torbrowser
+    #torbrowser
     wireshark
 
   ];
