@@ -26,9 +26,11 @@
     # CLI environment
     # zsh should go to programs probably
     #appimage-run
+    cmake
     cmatrix
     docker
     ffmpeg-full
+    file
     gdb
     gcc
     ghc
@@ -39,6 +41,7 @@
     imagemagick
     lm_sensors
     lynx
+    man-pages
     mpv
     neofetch
     nix-zsh-completions
@@ -60,7 +63,6 @@
     zsh-fast-syntax-highlighting
 
     # basic desktop environment
-    discord
     dmenu
     dwm
     feh
@@ -75,6 +77,7 @@
     slstatus
     speedcrunch
     #tdesktop
+    thunderbird
     xclip
     zathura
 
@@ -83,7 +86,9 @@
     #chromium
     #dia
     #ktouch
+    discord
     lingot
+    obs-studio
     openconnect
     #torbrowser
     wireshark
