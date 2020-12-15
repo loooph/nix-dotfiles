@@ -15,6 +15,9 @@
       "ls" = "lsd";
       "du" = "dust";
       "tree" = "lsd --tree";
+      "ssh" = "TERM=xterm ssh";
+      "l" = "ls -l";
+      "la" = "ls -la";
     };
 	};
 }
