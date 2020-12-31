@@ -89,6 +89,7 @@
     discord
     lingot
     obs-studio
+    gimp
     openconnect
     #torbrowser
     wireshark
