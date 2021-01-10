@@ -13,7 +13,7 @@
   home.packages = with pkgs; [
     # more modern cli tools
     bat
-    dust
+    #dust # broken
     fd
     hyperfine
     lsd
