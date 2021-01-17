@@ -18,7 +18,7 @@ in
     ./programs/zsh
     ./services/dunst
     ./services/gpg-agent
-    ./services/pscircle
+#    ./services/pscircle
     ./services/redshift
     ./services/slstatus
     ./services/udiskie
