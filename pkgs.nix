@@ -67,22 +67,21 @@
     dwm
     feh
     firefox
-    #gimp
     jetbrains-mono
     libreoffice
     maim
     pavucontrol
-    pscircle
     slock
     slstatus
     speedcrunch
+    element-desktop
     #tdesktop
     thunderbird
     xclip
     zathura
 
     # aditional X programs
-    #(steam.override { extraPkgs = pkgs: [glxinfo];})
+    (steam.override { extraPkgs = pkgs: [glxinfo libcxx];})
     #chromium
     #dia
     #ktouch
