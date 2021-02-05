@@ -12,7 +12,7 @@ in
     enable = true;
     windowManager.command = "${dwm}/bin/dwm";
     initExtra = ''
-      xinput set-prop 8 306 0 1
+      xinput set-prop 8 308 0 1
       setxkbmap de
     '';
   };
